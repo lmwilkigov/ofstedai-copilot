@@ -1,7 +1,6 @@
 from typing import List
 
 from ofstedai.models.file import Chunk, File
-from ofstedai.parsing.chunk_clustering import cluster_chunks
 from ofstedai.parsing.chunkers import other_chunker
 
 
@@ -31,9 +30,7 @@ class FileChunker:
             ".xlsx": other_chunker,
         }
 
-    def chunk_file(
-        self, file: File, creator_user_uuid="dev"
-    ) -> List[Chunk]:
+    def chunk_file(self, file: File, creator_user_uuid="dev") -> List[Chunk]:
         """_summary_
 
         Args:

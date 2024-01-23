@@ -99,7 +99,7 @@ if categories[categories_input] is not None:
 run_button = st.button("Load School Reports")
 
 if run_button:
-    reports_and_schools= get_reports_from_url(url_input)
+    reports_and_schools = get_reports_from_url(url_input)
 
     if len(reports_and_schools) == 0:
         st.warning("⚠️ No reports found. Try broadening your search criteria.")

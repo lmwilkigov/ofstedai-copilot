@@ -3,10 +3,10 @@ import time
 from functools import lru_cache
 
 import requests
+import streamlit as st
 import typer
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-import streamlit as st
 
 BASE_OFSTED_URL = "https://reports.ofsted.gov.uk"
 data = {"pages": [], "schools": []}

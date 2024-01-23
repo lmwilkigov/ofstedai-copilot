@@ -1,9 +1,9 @@
 import json
 import os
 import pathlib
+from collections import defaultdict
 from datetime import date
 from typing import List
-from collections import defaultdict
 
 import dotenv
 import streamlit as st
@@ -133,8 +133,6 @@ def refresh_files():
         st.session_state["school_name_to_file_uuid_map"][file.school_name].append(
             file.uuid
         )
-
-
 
 
 def create_initial_chat_prompt(

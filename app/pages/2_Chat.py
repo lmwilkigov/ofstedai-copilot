@@ -13,8 +13,8 @@ from utils import (
     create_initial_chat_prompt,
     init_session_state,
     refresh_files,
+    render_citation_response,
     show_chat_history,
-    render_citation_response
 )
 
 from ofstedai.models.chat import ChatMessage

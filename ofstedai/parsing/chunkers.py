@@ -12,7 +12,6 @@ from unstructured.partition.auto import partition
 from ofstedai.models.file import Chunk, File
 
 
-
 def creation_date(path_to_file) -> datetime:
     """
     Try to get the date that a file was created, falling back to when it was
@@ -20,7 +19,7 @@ def creation_date(path_to_file) -> datetime:
 
     Args:
         path_to_file (str): The path to the file to be checked.
-    
+
     Returns:
         datetime: The creation date of the file.
     """
