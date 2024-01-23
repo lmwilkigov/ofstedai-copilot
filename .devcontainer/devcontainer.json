@@ -1,5 +1,0 @@
-{
-    "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
-    "postCreateCommand": "pip3 install -r requirements.txt && sudo apt-get update",
-    "name": "interview-dev"
-}
