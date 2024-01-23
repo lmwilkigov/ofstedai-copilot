@@ -1,0 +1,21 @@
+-e file:.
+langchain
+langchain-community
+streamlit
+python-dotenv
+pandas
+unstructured[all-docs]
+streamlit
+anthropic
+chromadb
+fastapi
+pydantic
+jupyter
+tqdm
+bs4
+requests
+typer[all]
+tiktoken
+scipy
+pyprojroot
+sentence-transformers
